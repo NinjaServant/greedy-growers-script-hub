@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1f14"/>
+      <stop offset="50%" stop-color="#0e2a1a"/>
+      <stop offset="100%" stop-color="#081a10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#2ecc71" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2ecc71" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3fbb63"/>
+      <stop offset="100%" stop-color="#1c7a3e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <!-- decorative low-opacity growth motifs -->
+  <g opacity="0.12" stroke="#8fe3a5" stroke-width="2" fill="none">
+    <path d="M 60 340 C 90 260 70 200 110 140"/>
+    <path d="M 110 140 C 130 120 150 120 160 100"/>
+    <path d="M 110 140 C 95 125 80 122 70 108"/>
+    <path d="M 1140 340 C 1110 260 1130 200 1090 140"/>
+    <path d="M 1090 140 C 1070 120 1050 120 1040 100"/>
+    <path d="M 1090 140 C 1105 125 1120 122 1130 108"/>
+  </g>
+
+  <g opacity="0.10" fill="#8fe3a5">
+    <circle cx="150" cy="60" r="4"/>
+    <circle cx="1050" cy="80" r="5"/>
+    <circle cx="200" cy="300" r="3"/>
+    <circle cx="1000" cy="290" r="4"/>
+    <circle cx="90" cy="200" r="3"/>
+    <circle cx="1110" cy="220" r="3"/>
+  </g>
+
+  <g opacity="0.08" stroke="#c8f0d3" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+  </g>
+
+  <g opacity="0.15">
+    <path d="M 600 40 C 590 20 610 5 600 0" stroke="#3fbb63" stroke-width="3" fill="none"/>
+    <path d="M 600 20 C 610 10 625 15 620 5" fill="url(#leafGrad)"/>
+    <path d="M 600 20 C 590 10 575 15 580 5" fill="url(#leafGrad)"/>
+  </g>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" font-weight="700" fill="#ffffff">
+    <tspan x="600" dy="0">Greedy Growers Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Script hub for Greedy Growers players — reads plant data, processes growth stats,</tspan>
+    <tspan x="600" dy="30">exports save-ready configs.</tspan>
+  </text>
+</svg>
